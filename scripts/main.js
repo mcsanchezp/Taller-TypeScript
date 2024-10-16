@@ -32,5 +32,6 @@ function showSeriesDetail(serie) {
     cardTitle.textContent = serie.name;
     cardText.textContent = serie.sinopsis;
     cardLink.textContent = serie.link;
+    cardLink.href = serie.link;
     serieDetailsCard.classList.remove('d-none');
 }
